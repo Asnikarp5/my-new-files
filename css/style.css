@@ -47,11 +47,16 @@
 .box{
     
     background-color: grey;
+    border-radius: 20px;
     width: 300px;
-    height: 200px;
-    display: inline-block;
+    height: 100px;
+    margin-left: 700px;
+    margin-top: 50px;
+    
+    /* display: inline-block; */
     
 }
+
        
 .box2{
     
@@ -80,6 +85,7 @@
 .first-main-box{
     text-align: center;
     background-image:url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg') ;
+    height: 200px;
     
 
 }
@@ -93,8 +99,9 @@ img{
      width: 300px;
     height: 200px; 
     background-color: grey;
-    border-radius: 5px;
+    border-radius: 10px;
     float: left;
+    
     
 }
 
@@ -103,7 +110,7 @@ img{
       width: 300px;
     height: 200px; 
       background-color: grey;
-      border-radius: 5px;
+      border-radius: 10px;
 }
 
 
@@ -112,7 +119,7 @@ img{
      width: 300px;
     height: 200px; 
     background-color: grey;
-    border-radius: 5px;
+    border-radius: 10px;
     float: right;
 }
 .container{
