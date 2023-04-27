@@ -1,140 +1,152 @@
-.main-heading{
+.main-heading {
     font-family: serif;
     font-weight: bolder;
-    
-    
+
+
 }
 
-.navbar{
+.navbar {
     background-color: black;
-   
+
 }
+
 .navbar li {
-  
+
     list-style: none;
     display: inline;
     font-size: large;
-    
-    
+
+
 }
- .navbar ul {  
-    
+
+.navbar ul {
+
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
- }
- footer{
+}
+
+footer {
     background-color: black;
     color: white;
     text-align: center;
-     padding: 1em; 
-     margin: 0;
+    padding: 1em;
+    margin: 0;
 
- }  
- footer a{
+}
+
+footer a {
     color: white;
-     padding: 0 15px; 
-	font-size: 1.5rem;
+    padding: 0 15px;
+    font-size: 1.5rem;
     text-decoration: none;
- } 
-   
+}
+
 .navbar li a {
-    padding: 3px 3px ;
-    
+    padding: 3px 3px;
+
     text-decoration: none;
     color: white;
 }
-.box{
-    
+
+.box {
+
     background-color: grey;
     border-radius: 20px;
-    width:1000px;
+    width: 1000px;
     height: 200px;
     margin-left: 450px;
-        
+
 }
 
 
-.heading{
+.heading {
     margin: 0;
 }
-.border{
+
+.border {
     border: 0;
     margin: 0;
 }
-.second-main-box{
-        
-        text-align: center;
 
-}
-@media screen {
-    
-}
-.first-main-box{
+.second-main-box {
+
     text-align: center;
-    background-image:url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg') ;
-    height: 200px; 
-    
 
 }
 
-img{
+@media screen {}
+
+.first-main-box {
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg');
+    height: 200px;
+
+
+}
+
+img {
     width: 100%;
     height: auto;
 }
-.div1{
-    
-     width: 300px;
-    height: 200px; 
+
+.div1 {
+
+    width: 300px;
+    height: 200px;
     background-color: grey;
     border-radius: 10px;
     float: left;
-    
-    
+
+
 }
 
-.div2{
-      display: inline-block;
-      width: 300px;
-    height: 200px; 
-      background-color: grey;
-      border-radius: 10px;
+.div2 {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 10px;
 }
 
 
-.div3{
-    
-     width: 300px;
-    height: 200px; 
+.div3 {
+
+    width: 300px;
+    height: 200px;
     background-color: grey;
     border-radius: 10px;
     float: right;
 }
-.container{
+
+.container {
     text-align: center;
     background-image: url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg');
 }
-.second-main-box img{
+
+.second-main-box img {
     width: 100%;
     height: auto;
 
 }
 
 
-  @media screen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
 
-     .contain{
+    .contain {
         width: 300px;
         height: 200px;
-     }
+    }
 
-    
-  }
-  .back-groun-image{
+
+}
+
+.back-groun-image {
     background-image: url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg');
-  }
-  
-  input[type=text], select {
+}
+
+input[type=text],
+select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -142,9 +154,9 @@ img{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
-  
-  input[type=submit] {
+}
+
+input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -153,27 +165,20 @@ img{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-  
-  
-  .form{
-      margin: auto;
-      align-items: center;
-      justify-content: center;
-      width: 50%;
-  }
-  .footer-margin{
+}
+
+
+.form {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.footer-margin {
     margin-top: 150px;
-  }
-  
-
- 
-
-
-
-
-
+}
