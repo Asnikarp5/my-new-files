@@ -57,7 +57,7 @@ footer a {
 
 .box {
 
-    background-color: grey;
+    background-color: rgb(243, 235, 235);
     border-radius: 20px;
     width: 1000px;
     height: 200px;
@@ -68,11 +68,16 @@ footer a {
 
 .heading {
     margin: 0;
+    font-size: 1.5rem;
 }
 
 .border {
     border: 0;
     margin: 0;
+}
+
+.clickhere {
+    background-color: goldenrod;
 }
 
 .second-main-box {
