@@ -105,7 +105,7 @@ img {
 
     width: 300px;
     height: 200px;
-    background-color: grey;
+    background-color: rgb(250, 247, 247);
     border-radius: 10px;
     float: left;
 
@@ -116,7 +116,7 @@ img {
     display: inline-block;
     width: 300px;
     height: 200px;
-    background-color: grey;
+    background-color: rgb(250, 247, 247);
     border-radius: 10px;
 }
 
@@ -125,9 +125,14 @@ img {
 
     width: 300px;
     height: 200px;
-    background-color: grey;
+    background-color: rgb(250, 247, 247);
     border-radius: 10px;
     float: right;
+}
+
+.time {
+    font-size: large;
+    font-weight: bold;
 }
 
 .container {
