@@ -1,32 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
 .main-heading {
     font-family: serif;
     font-weight: bolder;
-
-
+    background-color: rgb(24, 69, 121);
 }
 
 .navbar {
     background-color: black;
-
 }
 
 .navbar li {
-
+    background-color: rgb(24, 69, 121);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
     list-style: none;
     display: inline;
     font-size: large;
-
-
 }
 
 .navbar ul {
-
     padding-top: 20px;
     padding-bottom: 20px;
     margin: 0;
@@ -38,7 +31,6 @@ footer {
     text-align: center;
     padding: 1em;
     margin: 0;
-
 }
 
 footer a {
@@ -56,44 +48,50 @@ footer a {
 }
 
 .box {
-
-    background-color: rgb(243, 235, 235);
+    background-color: white;
     border-radius: 20px;
     width: 1000px;
-    height: 200px;
-    margin-left: 450px;
-
+    height: auto;
+    margin: auto;
+    padding: 5px;
 }
 
+/* call to action button */
+.clickhere {
+    background-color: rgb(24, 69, 121);
+    border: solid 1px black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /* font-size: 16px; */
+}
 
 .heading {
     margin: 0;
-    font-size: 1.5rem;
 }
 
 .border {
     border: 0;
     margin: 0;
-}
-
-.clickhere {
-    background-color: goldenrod;
+    color: rgb(24, 69, 121);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
 }
 
 .second-main-box {
-
     text-align: center;
-
 }
-
-@media screen {}
 
 .first-main-box {
     text-align: center;
-    background-image: url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg');
-    height: 200px;
-
-
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg");
+    height: 250px;
+    padding: 10px 0px 10px 0px;
 }
 
 img {
@@ -101,67 +99,66 @@ img {
     height: auto;
 }
 
-.div1 {
+.logo {
+    width: 200px;
+    height: 80px;
+}
 
-    width: 300px;
+h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7px;
+}
+
+/* three message container on classes page */
+.div1 {
+    width: 400px;
     height: 200px;
-    background-color: rgb(250, 247, 247);
+    background-color: white;
     border-radius: 10px;
     float: left;
-
-
+    margin: 7px 0px 7px 7px;
+    padding: 10px;
 }
 
 .div2 {
     display: inline-block;
-    width: 300px;
+    width: 400px;
     height: 200px;
-    background-color: rgb(250, 247, 247);
+    background-color: white;
     border-radius: 10px;
+    margin: 7px 0px 7px 0px;
+    padding: 10px;
 }
-
 
 .div3 {
-
-    width: 300px;
+    width: 400px;
     height: 200px;
-    background-color: rgb(250, 247, 247);
+    background-color: white;
     border-radius: 10px;
     float: right;
-}
-
-.time {
-    font-size: large;
-    font-weight: bold;
+    margin-right: 7px;
+    margin: 7px 7px 7px 0px;
+    padding: 10px;
 }
 
 .container {
     text-align: center;
-    background-image: url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg');
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg");
+    margin: auto;
+    height: 100%;
 }
 
 .second-main-box img {
     width: 100%;
     height: auto;
-
-}
-
-
-@media screen and (max-width: 300px) {
-
-    .contain {
-        width: 300px;
-        height: 200px;
-    }
-
-
 }
 
 .back-groun-image {
-    background-image: url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg');
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566__340.jpg");
 }
 
-input[type=text],
+/* form styling */
+input[type="text"],
 select {
     width: 100%;
     padding: 12px 20px;
@@ -172,9 +169,9 @@ select {
     box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: rgb(24, 69, 121);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -183,18 +180,92 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
     background-color: #45a049;
 }
-
 
 .form {
     margin: auto;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 30%;
+    border: 2px solid rgb(24, 69, 121);
+    padding: 40px;
+    border-radius: 10px;
 }
 
 .footer-margin {
     margin-top: 150px;
+}
+
+/* responsive styling for small and mobile screens  */
+@media screen and (min-width: 100px) and (max-width: 550px) {
+    .box {
+        width: 300px;
+        height: 450px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .first-main-box {
+        height: 500px;
+    }
+
+    .container {
+        height: 700px;
+        padding: 20px;
+    }
+
+    .div1 {
+        float: none;
+        margin: auto;
+        width: 300px;
+    }
+
+    .div3 {
+        float: none;
+        margin: auto;
+        width: 300px;
+    }
+
+    .div2 {
+        width: 300px;
+    }
+
+    .form {
+        width: 50%;
+    }
+}
+
+/* responsive styling for medium to large displays */
+@media screen and (min-width: 551px) and (max-width: 1000px) {
+    .box {
+        width: 500px;
+        height: 350px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .first-main-box {
+        height: 400px;
+    }
+
+    .container {
+        height: 700px;
+        padding: 20px;
+    }
+
+    .div1 {
+        float: none;
+        margin: auto;
+    }
+
+    .div3 {
+        float: none;
+        margin: auto;
+    }
+
+    .form {
+        width: 40%;
+    }
 }

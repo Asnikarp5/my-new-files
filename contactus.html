@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" />
 	<title>YOGA</title>
 </head>
 
@@ -17,54 +17,61 @@
 			<li><a href="contactus.html">Contact Us</a></li>
 		</ul>
 	</nav>
-
-
 	<header>
-		<h1 class="main-heading">For Enquiries please fill out the below details</h1>
+		<h1 class="main-heading-contact">
+			For Enquiries please fill out the below details
+		</h1>
 	</header>
-
+	<!-- contact us form -->
 	<div class="form">
-		<form action="">
+		<form id="form" method="post">
 			<label for="firstname">First Name</label>
-			<input type="text" id="firstname" name="firstname" placeholder="Your name..">
-
+			<input type="text" id="firstname" name="firstname" placeholder="Your name.." required />
 			<label for="lastname">Last Name</label>
-			<input type="text" id="lastname" name="lastname" placeholder="Your last name..">
-
+			<input type="text" id="lastname" name="lastname" placeholder="Your last name.." required />
 			<label for="e-mail">E-mail</label>
-			<input type="text" id="e-mail" name="e-mail" placeholder="Type your e-mail address..">
-
+			<input type="text" id="e-mail" name="e-mail" placeholder="Type your e-mail address.." required />
 			<label for="question">Your Question</label>
-			<input type="text" id="question" name="question" placeholder="Type your question..">
-
-			<input type="submit" value="Submit">
+			<input type="text" id="question" name="question" placeholder="Type your question.." required />
+			<input type="submit" value="Submit" onclick="validateForm()" />
 		</form>
 	</div>
+	<footer class="footer-margin">
+		<div>
+			<div class="contact">
+				<h3>Contact</h3>
+				<div>
+					<span class="bold">Phone: </span>
+					<span>1(234)568-58</span>
+					<span>1(234)457-54</span>
+				</div>
+				<div>
+					<span class="bold">Email: </span>
+					<span>practiceyoag@gmail.com</span>
+				</div>
+			</div>
+			<div class="location">
+				<h3>location</h3>
+				<p>121Rock street,<br />21 Avenue,<br />Dublin</p>
+			</div>
+		</div>
+	</footer>
+	<script>
+		function validateForm() {
+			// I am checking form valididate below 
+			let firstName = document.forms["form"]["firstname"].value;
+			let lastname = document.forms["form"]["lastname"].value;
+			let email = document.forms["form"]["e-mail"].value;
+			let query = document.forms["form"]["question"].value;
+
+			if (firstName == "" || lastname == "" || email == "" || query == "") {
+				alert("All fields must be filled out");
+			} else {
+				// if all fields are provided then display confirm alert message
+				alert(`Hi ${firstName} your query is submitted!`);
+			}
+		}
+	</script>
 </body>
-
-<footer class="footer-margin">
-
-	<div>
-		<div class="contact">
-			<h3>Contact</h3>
-
-			<div>
-				<span class="bold">Phone: </span>
-				<span>1(234)568-58</span>
-				<span>1(234)457-54</span>
-			</div>
-			<div>
-				<span class="bold">Email: </span>
-				<span>practiceyoag@gmail.com</span>
-			</div>
-		</div>
-		<div class="location">
-			<h3>location</h3>
-			<p>121Rock street,<br>21 Avenue,<br>Dublin</p>
-		</div>
-	</div>
-
-</footer>
-
 
 </html>
