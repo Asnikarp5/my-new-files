@@ -1,8 +1,13 @@
+/* adding style to heading*/
+
+
 .main-heading {
     font-family: serif;
     font-weight: bolder;
     background-color: rgb(24, 69, 121);
 }
+
+/*styling menu*/
 
 .navbar {
     background-color: black;
@@ -25,6 +30,15 @@
     margin: 0;
 }
 
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*styling footer*/
+
 footer {
     background-color: black;
     color: white;
@@ -40,12 +54,7 @@ footer a {
     text-decoration: none;
 }
 
-.navbar li a {
-    padding: 3px 3px;
-
-    text-decoration: none;
-    color: white;
-}
+/* styling yoga box*/
 
 .box {
     background-color: white;
